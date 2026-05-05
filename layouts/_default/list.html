@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <div class="divider"></div>
+  </div>
+</section>
+
+<section class="project-content">
+  <div class="container">
+    {{ .Content }}
+    {{ range .Pages }}
+    <div style="margin-bottom:1.5rem;padding:1.5rem;border:1px solid #eee;border-radius:8px">
+      <h3><a href="{{ .RelPermalink }}" style="color:var(--navy)">{{ .Title }}</a></h3>
+      {{ with .Params.subtitle }}<p style="color:var(--text-muted)">{{ . }}</p>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

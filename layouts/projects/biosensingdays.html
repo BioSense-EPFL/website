@@ -1,0 +1,254 @@
+{{ define "main" }}
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <h1>BioSensing Days</h1>
+    <div class="divider"></div>
+    <p style="margin-top:1.25rem">May 6–7, 2026 · EPFL, Lausanne</p>
+  </div>
+</section>
+
+<!-- COUNTDOWN -->
+<section class="countdown-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>The Event is Here!</h2>
+      <div class="divider"></div>
+      <p>Continuous Monitoring: Bridging Technology and Medicine</p>
+    </div>
+    <div id="countdown" class="countdown-wrap">
+      <div class="countdown-unit">
+        <span class="number" id="cd-days">00</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="countdown-separator">:</div>
+      <div class="countdown-unit">
+        <span class="number" id="cd-hours">00</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="countdown-separator">:</div>
+      <div class="countdown-unit">
+        <span class="number" id="cd-minutes">00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="countdown-separator">:</div>
+      <div class="countdown-unit">
+        <span class="number" id="cd-seconds">00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section style="background:var(--white);padding:5rem 2rem">
+  <div class="container" style="max-width:900px">
+    <div class="section-header">
+      <h2>About the Event</h2>
+      <div class="divider"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center">
+      <div>
+        <p style="color:var(--text-muted)">Biosensing Days brings together leading experts, researchers, and students to explore the latest breakthroughs and innovations in biosensor technology. This year's theme, <strong>Continuous Monitoring: Bridging Technology and Medicine</strong>, highlights the growing role of biosensors in advancing healthcare.</p>
+        <a href="#register" class="btn btn-primary" style="margin-top:1.5rem">Register Now</a>
+      </div>
+      <img src="/images/biosensingdays-poster.jpg" alt="BioSensing Days 2026 poster" style="border-radius:8px;width:100%;object-fit:cover">
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULE -->
+<section style="background:var(--light);padding:5rem 2rem">
+  <div class="container">
+    <div class="section-header">
+      <h2>Event Schedule</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="schedule-grid">
+      <!-- Wednesday -->
+      <div class="schedule-day">
+        <h3>📅 Wednesday, May 6</h3>
+        <div class="schedule-item">
+          <strong>Conference Opening</strong>
+        </div>
+        <div class="schedule-item">
+          <strong>Keynote 1</strong>
+          <span>Prof. H. Altug — Integrated Nanophotonics for Biosensor Systems</span>
+        </div>
+        <div class="schedule-item">
+          <strong>Keynote 2</strong>
+          <span>Prof. J. Vörös — What limits diagnostically relevant biosensors?</span>
+        </div>
+        <div class="schedule-item">
+          <strong>Keynote 3</strong>
+          <span>Dr. N. Brasier — Wearable Devices in Clinical Medicine</span>
+        </div>
+        <div class="schedule-item">
+          <strong>Networking + Poster Presentation</strong>
+        </div>
+      </div>
+      <!-- Thursday -->
+      <div class="schedule-day">
+        <h3>📅 Thursday, May 7</h3>
+        <div class="schedule-item">
+          <strong>Conference Opening</strong>
+        </div>
+        <div class="schedule-item">
+          <strong>Keynote 1 — CSEM</strong>
+          <span>Felix Kurth — Next generation biosensing solutions</span>
+        </div>
+        <div class="schedule-item">
+          <strong>Keynote 2 — SENTEC</strong>
+          <span>Arsalan Saeedi — Wearable & implantable sensing systems</span>
+        </div>
+        <div class="schedule-item">
+          <strong>Break</strong>
+        </div>
+        <div class="schedule-item">
+          <strong>Keynote 3 — Medtronic</strong>
+          <span>Benoît Schaller — Engineering the Future</span>
+        </div>
+        <div class="schedule-item">
+          <strong>Keynote 4</strong>
+          <span>Innovating for Parkinson's — BioSense EPFL &amp; Sum Lau (Imperial College London)</span>
+        </div>
+        <div class="schedule-item">
+          <strong>Networking and Closing</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPEAKERS -->
+<section style="background:var(--white);padding:5rem 2rem">
+  <div class="container">
+    <div class="section-header">
+      <h2>Speakers</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="speakers-grid">
+
+      <div class="speaker-card">
+        <div class="speaker-info">
+          <h4>Prof. Hatice Altug</h4>
+          <div class="affiliation">EPFL — BIOS Laboratory</div>
+          <div class="talk-title">"Integrated Nanophotonics: Enabling Next-Generation Biosensor Systems for Life Science and Biomedical Applications"</div>
+          <p>Full Professor of Bioengineering and Director of the Doctoral School in Photonics at EPFL. Pioneer in nanophotonics developing high-sensitivity optical biosensors for real-time, label-free detection of biomolecules and pathogens.</p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="speaker-info">
+          <h4>Prof. Janos Vörös</h4>
+          <div class="affiliation">ETH Zürich — Laboratory of Biosensors and Bioelectronics</div>
+          <div class="talk-title">"What limits diagnostically relevant biosensors?"</div>
+          <p>Full Professor in D-ITET at ETH Zürich. His work explores the interface between electronics and biology, specifically in "bottom-up neuroscience" and biosensors. His lab has shaped the careers of over 700 alumni.</p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="speaker-info">
+          <h4>Dr. Noé Brasier</h4>
+          <div class="affiliation">ETH Zürich — MedLab Fellow</div>
+          <div class="talk-title">"Wearable Devices in Clinical Medicine: Navigating a Paradigm Shift"</div>
+          <p>Medical doctor specialized in general internal medicine and physician-scientist at ETH Zürich. Research focuses on the translation of wearable bodyfluid analysis into clinical application.</p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="speaker-info">
+          <h4>Felix Kurth</h4>
+          <div class="affiliation">CSEM — Biosensing Technologies Group Leader</div>
+          <div class="talk-title">"Next generation biosensing solutions and challenges in biofluids monitoring"</div>
+          <p>CSEM is a Swiss R&amp;T organization bridging fundamental research and industry, with strong applications in healthcare including wearable and implantable sensing systems.</p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="speaker-info">
+          <h4>Arsalan Saeedi</h4>
+          <div class="affiliation">Sentec</div>
+          <div class="talk-title">Biosensing and continuous patient monitoring</div>
+          <p>Sentec is a Swiss medical technology company specializing in advanced monitoring solutions, including electrochemical and transcutaneous systems for continuous, non-invasive monitoring of physiological parameters.</p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
+        <div class="speaker-info">
+          <h4>Benoît Schaller</h4>
+          <div class="affiliation">Medtronic</div>
+          <div class="talk-title">"Medtronic: Engineering the Future"</div>
+          <p>Medtronic is an international leader in medical technologies, designing innovative devices for cardiology, neurology, diabetes, and minimally invasive surgery. Present in more than 150 countries.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- REGISTER -->
+<section id="register" style="background:var(--light);padding:5rem 2rem">
+  <div class="container" style="max-width:700px">
+    <div class="register-box">
+      <h2>Register to Attend</h2>
+      <p>Registration is mandatory. Free dinner and snacks will be served during the evening — please specify your dietary needs when registering.</p>
+      <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" class="btn btn-primary" target="_blank" rel="noopener">Register via Google Forms</a>
+    </div>
+  </div>
+</section>
+
+<!-- VENUE -->
+<section style="background:var(--white);padding:5rem 2rem">
+  <div class="container" style="max-width:900px">
+    <div class="section-header">
+      <h2>Venue</h2>
+      <div class="divider"></div>
+    </div>
+    <img src="/images/biosensingdays-venue.jpg" alt="Event venue" style="width:100%;border-radius:10px;max-height:400px;object-fit:cover;margin-bottom:2rem">
+    <p style="color:var(--text-muted);text-align:center">The event takes place at EPFL, Lausanne, Switzerland. Detailed location information will be shared with registered attendees.</p>
+  </div>
+</section>
+
+<!-- ORGANIZING TEAM -->
+<section style="background:var(--light);padding:5rem 2rem">
+  <div class="container">
+    <div class="section-header">
+      <h2>Organizing Team</h2>
+      <div class="divider"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2rem">
+      <div style="background:var(--white);border-radius:10px;padding:2rem">
+        <h4 style="color:var(--red);font-size:0.85rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:1rem">Team Lead</h4>
+        <h3 style="color:var(--navy);font-size:1.1rem;margin-bottom:1rem">Lucia Zedgitt</h3>
+        <ul style="list-style:none;color:var(--text-muted);font-size:0.9rem">
+          <li>• Samuele Sattar</li>
+          <li>• Srijanani Thandaveswaran</li>
+        </ul>
+      </div>
+      <div style="background:var(--white);border-radius:10px;padding:2rem">
+        <h4 style="color:var(--red);font-size:0.85rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:1rem">Team Lead</h4>
+        <h3 style="color:var(--navy);font-size:1.1rem;margin-bottom:1rem">Silvia Bonati</h3>
+        <ul style="list-style:none;color:var(--text-muted);font-size:0.9rem">
+          <li>• Eduardo Almadana Clerisse</li>
+          <li>• Yuno Reigner</li>
+          <li>• Alessandro Fulciniti</li>
+        </ul>
+      </div>
+      <div style="background:var(--white);border-radius:10px;padding:2rem">
+        <h4 style="color:var(--red);font-size:0.85rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:1rem">Additional Members</h4>
+        <ul style="list-style:none;color:var(--text-muted);font-size:0.9rem">
+          <li>• Ghalia Tnani</li>
+          <li>• Alexandre Barratt</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
+
+{{ define "scripts" }}
+<script src="/js/main.js"></script>
+{{ end }}

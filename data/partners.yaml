@@ -1,0 +1,34 @@
+# ============================================================
+# BioSense EPFL – Partners Data
+# ============================================================
+# HOW TO EDIT:
+#   - Add/remove partners by copying or deleting a block
+#   - logo: put the filename in static/images/partners/ and
+#     write just the filename here (e.g. "mylab.png")
+#   - image: a background/header image for the card
+# ============================================================
+
+laboratories:
+  - name: "Biophotonic Systems Laboratory"
+    short: "BIOS Lab"
+    professor: "Prof. Hatice Altug"
+    description: "BIOS is our host laboratory, aiding us with managing our research projects and giving us their expertise in optical biosensors."
+    logo: "epfl.png"
+    image: "bci-chip.jpg"
+    url: "https://www.epfl.ch/labs/bios/"
+
+  - name: "Bio/CMOS Interfaces Group"
+    short: "BCI Group"
+    professor: "Prof. Sandro Carrara"
+    description: "The BCI group is a vital part of our ecosystem as it links us to the Microcity campus and supports our research in electrochemical sensors."
+    logo: "epfl.png"
+    image: "bci-chip.jpg"
+    url: "https://www.epfl.ch/labs/bci/"
+
+  - name: "Chemical Nanotechnology Lab"
+    short: "CHEMINA"
+    professor: "Prof. Nako Nakatsuka"
+    description: "CHEMINA offers us expertise on reversible biosensing. Specifically, through DNA aptamer-based detection of target analytes."
+    logo: "epfl.png"
+    image: "bci-chip.jpg"
+    url: "https://www.epfl.ch/labs/nakatsuka-lab/"

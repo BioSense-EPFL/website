@@ -1,0 +1,78 @@
+{{ define "main" }}
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <h1>Our Team</h1>
+    <div class="divider"></div>
+    <p style="margin-top:1.25rem">Meet the people behind BioSense EPFL.</p>
+  </div>
+</section>
+
+<!-- INTRO / ABOUT US -->
+<section class="team-intro">
+  <div class="container">
+    <div class="team-intro-grid">
+      <div>
+        <img src="/images/competition-team-2026.jpg" alt="BioSense team">
+      </div>
+      <div>
+        <h2>About Us</h2>
+        <p>You are a student wishing to learn biosensing or a company wishing to partner up? We are always on the lookout for people sharing our interests!</p>
+        <a href="/contact/" class="btn btn-primary">Join us</a>
+
+        <div class="statutes-box" style="margin-top:2rem">
+          <p>These documents, in French, are the legal basis of the association in accordance with Swiss law. Last modified in February 2025.</p>
+          <a href="/BioSense-Statuts.pdf" class="btn btn-outline-white" target="_blank">Access the Articles of Association</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTING COMMITTEE -->
+<section class="team-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Acting Committee</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="team-grid">
+      {{ range .Site.Data.team.committee }}
+      <div class="team-card">
+        <img src="/images/team/{{ .photo }}" alt="{{ .name }}" loading="lazy">
+        <h4>{{ .name }}</h4>
+        <div class="role">{{ .role }}</div>
+        <div class="program">{{ .program }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- COMPETITION TEAM 2026 -->
+<section class="team-section alt">
+  <div class="container">
+    <div class="section-header">
+      <h2>Competition Team 2026</h2>
+      <div class="divider"></div>
+      <p>The 2026 competition team is a group of driven students from different technical backgrounds. Wish them luck building their biosensor!</p>
+    </div>
+    <img src="/images/competition-team-2026.jpg" alt="Competition Team 2026" style="width:100%;max-height:420px;object-fit:cover;object-position:center top;border-radius:10px;margin-bottom:2.5rem">
+    <div class="competition-list">
+      {{ range .Site.Data.team.competition_team }}
+      <div class="competition-member">
+        <h5>{{ .name }}</h5>
+        <span>{{ .program }}</span>
+      </div>
+      {{ end }}
+    </div>
+
+    <div style="margin-top:2.5rem;padding:2rem;background:var(--white);border-radius:10px;border-left:4px solid var(--red)">
+      <h3 style="color:var(--navy);margin-bottom:0.75rem;font-size:1.1rem">Competition Coaches</h3>
+      <p style="color:var(--text-muted);font-size:0.9rem">The competition team is coached by students having already participated in a previous iteration. They help the team define timelines and advise on technical and administrative issues.</p>
+    </div>
+  </div>
+</section>
+
+{{ end }}

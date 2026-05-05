@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <h1>Partners</h1>
+    <div class="divider"></div>
+    <p style="margin-top:1.25rem">The laboratories and organizations that support BioSense EPFL.</p>
+  </div>
+</section>
+
+<!-- LABORATORIES -->
+<section class="partners-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Laboratories</h2>
+      <div class="divider"></div>
+      <p>Our partner laboratories provide expertise, equipment, and mentorship to advance our biosensing research.</p>
+    </div>
+    <div class="lab-grid">
+      {{ range .Site.Data.partners.laboratories }}
+      <div class="lab-card">
+        <img src="/images/partners/{{ .image }}" alt="{{ .name }}">
+        <div class="lab-info">
+          <h3>{{ .name }}</h3>
+          <div class="professor">{{ .professor }}</div>
+          <p>{{ .description }}</p>
+          {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:1.25rem;font-size:0.85rem;padding:0.5rem 1.25rem">Visit Lab →</a>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- SPONSORS / ADDITIONAL PARTNERS -->
+<section class="partners-section alt">
+  <div class="container">
+    <div class="section-header">
+      <h2>Sponsors</h2>
+      <div class="divider"></div>
+      <p>We are grateful to our sponsors whose support makes BioSense EPFL possible.</p>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:2rem;align-items:center;justify-content:center;margin-top:1rem">
+      <img src="/images/partners/epfl.png" alt="EPFL" style="height:60px;width:auto;object-fit:contain">
+      <img src="/images/partners/dp-logo.png" alt="Partner" style="height:60px;width:auto;object-fit:contain">
+      <img src="/images/partners/neosens.jpg" alt="Neosens" style="height:60px;width:auto;object-fit:contain">
+    </div>
+    <div style="text-align:center;margin-top:3rem">
+      <p style="color:var(--text-muted);margin-bottom:1.5rem">Interested in supporting BioSense EPFL? We'd love to hear from you.</p>
+      <a href="/contact/" class="btn btn-primary">Become a Partner</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

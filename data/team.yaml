@@ -1,0 +1,87 @@
+# ============================================================
+# BioSense EPFL – Team Data
+# ============================================================
+# HOW TO EDIT:
+#   - Add/remove members by copying or deleting a block
+#   - photo: put the filename in static/images/team/ and write
+#     just the filename here (e.g. "johndoe.jpg")
+#   - Use "placeholder.png" if no photo is available yet
+# ============================================================
+
+committee:
+  - name: "Prof. Hatice Altug"
+    role: "Academic Referent"
+    program: "Full professor, BIOS laboratory"
+    photo: "placeholder.png"
+
+  - name: "Huyen Tran Nguyen"
+    role: "President"
+    program: "MSc. Life Sciences"
+    photo: "tran.jpg"
+
+  - name: "Hanqi Lu"
+    role: "Vice-President"
+    program: "MSc. Neuro-X"
+    photo: "hanqi.jpg"
+
+  - name: "Theo Maechler"
+    role: "Chief Financial Officer"
+    program: "BSc. Mechanical Engineering"
+    photo: "placeholder.png"
+
+  - name: "Nabil Bellamy"
+    role: "Chief Technology Officer"
+    program: "MSc. Microengineering"
+    photo: "nabil.jpg"
+
+  - name: "Gaelle Alasmar Eid"
+    role: "Chief Communications Officer"
+    program: "BSc. Life Sciences"
+    photo: "gaelle.jpg"
+
+  - name: "Sascha Rivera"
+    role: "R&D Team Leader"
+    program: "MSc. Quantum"
+    photo: "sascha.jpg"
+
+  - name: "Silvia Bonati"
+    role: "BioSensing Days Team Leader"
+    program: "MSc. Life Sciences"
+    photo: "silvia.jpg"
+
+  - name: "Lucia Zedgit"
+    role: "BioSensing Days Team Leader"
+    program: "BSc. Life Sciences"
+    photo: "lucia.jpg"
+
+  - name: "Alixe Kirbihler"
+    role: "SensUs Team Leader"
+    program: "MSc. Life Sciences"
+    photo: "alixe.jpg"
+
+  - name: "Niel Mistry"
+    role: "SensUs Team Leader"
+    program: "MSc. Robotics"
+    photo: "niel.jpg"
+
+competition_team:
+  - name: "Alixe Kirbihler"
+    program: "MSc. Life Sciences"
+  - name: "Niel Mistry"
+    program: "MSc. Robotics"
+  - name: "Lara Mansour"
+    program: "BSc. Life Sciences"
+  - name: "Gaelle Alasmar Eid"
+    program: "BSc. Life Sciences"
+  - name: "Silvia Bonati"
+    program: "MSc. Life Sciences"
+  - name: "Damaso Dubail"
+    program: "MSc. Life Sciences"
+  - name: "Lina Gross"
+    program: "MSc. Neuro-X"
+  - name: "Luciano Calcoen"
+    program: "MSc. Microengineering"
+  - name: "Theo Maechler"
+    program: "BSc. Mechanical Engineering"
+  - name: "Charlotte Mercier"
+    program: "BSc. Chemical Engineering"
