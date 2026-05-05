@@ -3,7 +3,7 @@ title: "Hackathon"
 subtitle: "The first ever biosensing hackathon in Lausanne."
 ---
 
-<img src="/images/hackathon.png" alt="BioSense Hackathon" class="project-image-full">
+{{< img src="images/hackathon.png" alt="BioSense Hackathon" class="project-image-full" >}}
 
 ## About the Hackathon
 

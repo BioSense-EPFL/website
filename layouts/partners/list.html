@@ -20,7 +20,7 @@
     <div class="lab-grid">
       {{ range .Site.Data.partners.laboratories }}
       <div class="lab-card">
-        <img src="/images/partners/{{ .image }}" alt="{{ .name }}">
+        <img src="{{ printf "images/partners/%s" .image | relURL }}" alt="{{ .name }}">
         <div class="lab-info">
           <h3>{{ .name }}</h3>
           <div class="professor">{{ .professor }}</div>
@@ -42,13 +42,13 @@
       <p>We are grateful to our sponsors whose support makes BioSense EPFL possible.</p>
     </div>
     <div style="display:flex;flex-wrap:wrap;gap:2rem;align-items:center;justify-content:center;margin-top:1rem">
-      <img src="/images/partners/epfl.png" alt="EPFL" style="height:60px;width:auto;object-fit:contain">
-      <img src="/images/partners/dp-logo.png" alt="Partner" style="height:60px;width:auto;object-fit:contain">
-      <img src="/images/partners/neosens.jpg" alt="Neosens" style="height:60px;width:auto;object-fit:contain">
+      <img src="{{ "images/partners/epfl.png" | relURL }}" alt="EPFL" style="height:60px;width:auto;object-fit:contain">
+      <img src="{{ "images/partners/dp-logo.png" | relURL }}" alt="Partner" style="height:60px;width:auto;object-fit:contain">
+      <img src="{{ "images/partners/neosens.jpg" | relURL }}" alt="Neosens" style="height:60px;width:auto;object-fit:contain">
     </div>
     <div style="text-align:center;margin-top:3rem">
       <p style="color:var(--text-muted);margin-bottom:1.5rem">Interested in supporting BioSense EPFL? We'd love to hear from you.</p>
-      <a href="/contact/" class="btn btn-primary">Become a Partner</a>
+      <a href="{{ "contact/" | relURL }}" class="btn btn-primary">Become a Partner</a>
     </div>
   </div>
 </section>

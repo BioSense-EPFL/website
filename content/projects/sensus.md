@@ -3,7 +3,7 @@ title: "SensUs Competition"
 subtitle: "Building biosensors that make a difference on the international stage."
 ---
 
-<img src="/images/sensus-1.jpg" alt="SensUs Competition" class="project-image-full">
+{{< img src="images/sensus-1.jpg" alt="SensUs Competition" class="project-image-full" >}}
 
 ## The SensUs Competition
 
@@ -19,7 +19,7 @@ The current iteration of the SensUs project focuses on **continuous levodopa mon
 
 In parallel, they are working closely with clinicians and speaking with patients to better understand their challenges and how such a sensor could support their daily lives.
 
-<img src="/images/competition-team-2026.jpg" alt="2026 Competition Team" class="project-image-full">
+{{< img src="images/competition-team-2026.jpg" alt="2026 Competition Team" class="project-image-full" >}}
 
 ## Past Competitions
 
@@ -61,7 +61,7 @@ In parallel, they are working closely with clinicians and speaking with patients
 </table>
 
 <div class="project-images-grid">
-  <img src="/images/sensus-2.jpg" alt="SensUs Competition 2">
-  <img src="/images/sensus-group-2023.jpg" alt="BioSense team 2023">
-  <img src="/images/competition-team.jpg" alt="Competition team">
+  {{< img src="images/sensus-2.jpg" alt="SensUs Competition" >}}
+  {{< img src="images/sensus-group-2023.jpg" alt="BioSense team 2023" >}}
+  {{< img src="images/competition-team.jpg" alt="Competition team" >}}
 </div>

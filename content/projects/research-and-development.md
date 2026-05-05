@@ -3,7 +3,7 @@ title: "Research & Development"
 subtitle: "Pushing the boundaries of biosensing through interdisciplinary innovation."
 ---
 
-<img src="/images/rnd-team.jpg" alt="R&D Team" class="project-image-full">
+{{< img src="images/rnd-team.jpg" alt="R&D Team" class="project-image-full" >}}
 
 ## Meet the Team
 
