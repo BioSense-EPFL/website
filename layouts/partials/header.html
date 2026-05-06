@@ -1,6 +1,6 @@
 <header>
   <nav class="navbar" aria-label="Main navigation">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="{{ "/" | relURL }}">
       <img src="{{ "images/logo.png" | relURL }}" alt="BioSense EPFL logo">
     </a>
 
@@ -12,15 +12,15 @@
       {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
           <li class="nav-item-dropdown">
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="{{ if eq .URL "#" }}#{{ else }}{{ .URL | relURL }}{{ end }}">{{ .Name }}</a>
             <ul class="dropdown-menu">
               {{ range .Children }}
-                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
               {{ end }}
             </ul>
           </li>
         {{ else if not .Parent }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
         {{ end }}
       {{ end }}
     </ul>
