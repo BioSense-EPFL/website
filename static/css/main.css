@@ -570,6 +570,14 @@ section { padding: 5rem 2rem; }
 .register-box h2 { color: var(--white); margin-bottom: 1rem; }
 .register-box p { opacity: 0.8; margin-bottom: 2rem; }
 
+/* ===== BIOSENSINGDAYS ABOUT GRID ===== */
+.bsd-about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
 /* ===== FOOTER ===== */
 footer {
   background: var(--navy);
@@ -633,6 +641,7 @@ footer {
   .team-intro-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .schedule-grid { grid-template-columns: 1fr; }
+  .bsd-about-grid { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
   .footer-social { text-align: left; }
   .footer-social-links { justify-content: flex-start; }
