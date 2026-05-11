@@ -14,7 +14,7 @@ laboratories:
     professor: "Prof. Hatice Altug"
     description: "BIOS is our host laboratory, aiding us with managing our research projects and giving us their expertise in optical biosensors."
     logo: "epfl.png"
-    image: "bci-chip.jpg"
+    image: "bios.png"
     url: "https://www.epfl.ch/labs/bios/"
 
   - name: "Bio/CMOS Interfaces Group"
@@ -30,5 +30,5 @@ laboratories:
     professor: "Prof. Nako Nakatsuka"
     description: "CHEMINA offers us expertise on reversible biosensing. Specifically, through DNA aptamer-based detection of target analytes."
     logo: "epfl.png"
-    image: "bci-chip.jpg"
-    url: "https://www.epfl.ch/labs/nakatsuka-lab/"
+    image: "chemina.png"
+    url: "https://www.epfl.ch/labs/chemina/"
