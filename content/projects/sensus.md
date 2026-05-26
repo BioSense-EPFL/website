@@ -60,9 +60,8 @@ In parallel, they are working closely with clinicians and speaking with patients
   </tbody>
 </table>
 
+{{< img src="images/sensus-2.jpg" alt="SensUs Competition" class="project-image-full" >}}
+
 {{< img src="images/competition-team.jpg" alt="Competition team" class="project-image-full" >}}
 
-<div class="project-images-grid" style="grid-template-columns: repeat(2, 1fr)">
-  {{< img src="images/sensus-2.jpg" alt="SensUs Competition" >}}
-  {{< img src="images/sensus-group-2023.jpg" alt="BioSense team 2023" >}}
-</div>
+{{< img src="images/sensus-group-2023.jpg" alt="BioSense team 2023" class="project-image-full" >}}
