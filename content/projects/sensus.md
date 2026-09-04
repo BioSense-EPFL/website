@@ -3,7 +3,7 @@ title: "SensUs Competition"
 subtitle: "Building biosensors that make a difference on the international stage."
 ---
 
-{{< img src="images/sensus-1.jpg" alt="SensUs Competition" class="project-image-full" >}}
+{{< img src="images/sensus26.jpeg" alt="SensUs Competition" class="project-image-full" >}}
 
 ## The SensUs Competition
 
